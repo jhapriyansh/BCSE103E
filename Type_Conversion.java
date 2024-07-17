@@ -5,5 +5,10 @@ public class Type_Conversion{
 		// Widening type cast.
 		System.out.println(num);
 		System.out.println(number);
+		double number2 = 9.87d;
+		int num2 = (int)number2;
+		// Narrowing type cast.
+		System.out.println(number2);
+		System.out.println(num2);
 	}
 }
